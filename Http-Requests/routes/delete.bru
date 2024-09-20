@@ -1,0 +1,19 @@
+meta {
+  name: delete
+  type: http
+  seq: 6
+}
+
+delete {
+  url: http://localhost:3333/user/1
+  body: none
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Jhoao Pedro",
+    "email": "jhoao@gmail.com",
+    "password": "123456"
+  }
+}

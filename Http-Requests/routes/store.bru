@@ -1,0 +1,19 @@
+meta {
+  name: store
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3333/user
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Jhoao",
+    "email": "jhoao@gmail.com",
+    "password": "123456"
+  }
+}

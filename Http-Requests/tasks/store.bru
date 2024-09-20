@@ -1,0 +1,21 @@
+meta {
+  name: store
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3333/task
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: MQ.xrRr_UK56gz4olJCG6NGMOBk-grIeMpZUDAtSkSR-bOCFbyLiS2N6c_Yt-gX
+}
+
+body:json {
+  {
+    "task": "Estudar AdonisJs"
+  }
+}
